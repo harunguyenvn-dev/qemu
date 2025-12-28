@@ -31,7 +31,7 @@ spec:
         image: qemux/qemu
         env:
         - name: BOOT
-          value: "kali"
+          value: "debian"
         - name: DISK_SIZE
           value: "64G"
         ports:
